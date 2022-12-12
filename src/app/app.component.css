@@ -1,0 +1,111 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.nav-item{
+    padding: 0 20px 0 20px;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-brand, .nav-link{
+    font-weight: 500;
+}
+
+#navlink a.active,
+#navlink a:hover
+{
+    color: blue;
+}
+.h1{
+    font-weight: 700;
+    letter-spacing: .2rem;
+    padding: 1rem 0 5rem 0;
+}
+.col-md-12{
+    padding: 4rem 0 2rem 0;
+}
+
+.social-icon{
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+#home_img{
+   position:absolute;
+   right: 8rem;
+   top:30%;
+   width: 400px;
+ }
+
+ /*About */
+ .about{
+    row-gap: 2rem;
+    padding: 30px;
+    text-align: center;
+  }
+  .about .row{
+    padding: 5rem;
+  }
+  .h2{
+    text-align: center;
+  }
+  .col-md-8{
+    text-align: initial;
+    padding-left: 5rem;
+  }
+  .img-fluid{
+    justify-self: center;
+  }
+  .about .img-fluid {
+    width: 250px;
+    border-radius: 150px;
+  }
+
+  /*skills*/
+  .skills{
+    row-gap: 2rem;
+    padding: 4rem;
+  }
+  .card{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        font-weight:600;
+        padding: .5rem 1rem;
+        margin-bottom: 2rem;
+        border-radius: .5rem;
+        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  }
+  .skills__icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: rgb(28, 28, 210);
+  }
+  .card-body{
+    display :flex;
+  }
+  .row{
+    padding: 2rem;
+  }
+  /*works*/
+  .img-fluid {
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: .5rem;
+    overflow: hidden;
+  }
+  
+  .img-fluid img {
+    transition: 1s;
+    width:100%;
+  }
+  
+  .img-fluid img:hover {
+    transform: scale(1.1);
+  }
+  form{
+    align-self: center;
+  }
+  .container .center_div{
+    margin: 0 auto;
+}
