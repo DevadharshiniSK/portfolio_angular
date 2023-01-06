@@ -1,7 +1,8 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--navbar-->
 <header>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
      <div class="container">
         <a class="navbar-brand" href="#">My_Portfolio</a>
   
@@ -32,90 +33,99 @@
   </header>
   <!--navbar-end-->
 
-  <main class="container">
+  <main>
+    <div data-bs-spy="scroll" data-bs-target="#navlink" data-bs-offset="0" tabindex="0">
   <!--About-->
-      <section class="row" id="#home">
-        <div class="col-md-12">
-           <div class="name">
+  <div class="container">
+      <div class="row" id="home">
+        <div class="col-md-4">
+        
+            <div class="name">
               <h1 class="h1-5">Hi, <br>I'am <span class="text-primary">Devadharshini<br>Web Developer</span></h1><br>
               <button type="button" class="btn btn-primary" id="resume" href="DEVADHARSHINI S K.pdf" download="Devadharshini.pdf">Download CV</button>
+            </div>
+            <br>
             <div class="col-lg-12 ">
                <a href="https://github.com/DevadharshiniSK" class="social-icon col-12"><i class='bx bxl-github '></i></a>
                <a href="www.linkedin.com/in/devadharshinisk43" class="social-icon col-12"><i class='bx bxl-linkedin '></i></a>
                <a href="https://twitter.com/DevadharshiniSK" class="social-icon col-12"><i class='bx bxl-twitter'></i></a>
            </div>
-           </div>
+          
         </div>
-        <div class="col-md-12">
-          <img src="assets/undraw.svg" class="rounded float-end" id="home_img" alt="">
+        <div class="col-md-8">
+          <img src="assets/home.png" class="image-fluid" id="home_img" alt="" width="80%">
         </div>
-      </section>
+      </div>
+  </div>
   
   <!--About-->
   <br>
-  <div class="about" id="#about">
-    <div class="title text-center">
-      <h2 class="text-primary">About</h2>
-    </div>
+  <div class="container">
+    <div class="about" id="about">
+      <div class="title text-center">
+        <h2 class="text-primary">About</h2>
+      </div>
       
-        <div class="row">
+      <div class="row">
           <div class="col-md-4">
                 <img class="img-fluid" src="assets/profile.jpeg" alt="">
           </div>
           <div class="col-md-8">
-           <h2 class="h3">Hi there!👋🏻</h2>
-           <h2 class="h3">I'am Deva,</h2>
-          <p class="text">A Passionate Front End Web Developer and
-             longing to learn more new web related Stuffs. Interested to gain knowledge and
-             experience in design and developing a
-             website to built a responsive webpage.
-           </p>
+                <h2 class="h3">Hi there!👋🏻</h2>
+                <h2 class="h3">I'am Deva,</h2>
+                <p class="text">A Passionate Front End Web Developer and
+                       longing to learn more new web related Stuffs. Interested to gain knowledge and
+                       experience in design and developing a
+                       website to built a responsive webpage.
+                </p>
           </div>
-        </div>
       </div>
+    </div>
+  </div>
 
-      <!--Skills-->
-      <br>
-       <div class="skills" id="#skills">
+  <!--Skills-->
+  <br>
+  <div class="container">
+    <div class="skills" id="skills">
          <div class="title text-center">
             <h2 class="text-primary">Skills</h2>
          </div>
      
          <div class="row">
-          <div class="col-md-8">
-            <h4 class="h4">Professional Skills</h4>
-            <div class="row p-4">
-              <div class="card  border-dark  bg-transparent mb-3">
-                  <i class='bx bxl-html5 skills__icon'></i>
-                  <span class="card-body">HTML5</span>
-              </div>
+            <div class="col-md-8">
+               <h4 class="h4">Professional Skills</h4>
+                  <div class="row p-4">
+                    <div class="card  border-dark  bg-transparent mb-3">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="card-body">HTML5</span>
+                    </div>
          
           
-              <div class="card  border-dark  bg-transparent mb-3">
-                  <i class='bx bxl-css3 skills__icon'></i>
-                  <span class="card-body">CSS3</span>
-              </div>
+                    <div class="card  border-dark  bg-transparent mb-3">
+                        <i class='bx bxl-css3 skills__icon'></i>
+                        <span class="card-body">CSS3</span>
+                    </div>
           
           
-              <div class="card  border-dark  bg-transparent mb-3">
-                  <i class='bx bxl-javascript skills__icon' ></i>
-                  <span class="card-body">JAVASCRIPT</span>
-              </div>
+                    <div class="card  border-dark  bg-transparent mb-3">
+                       <i class='bx bxl-javascript skills__icon' ></i>
+                       <span class="card-body">JAVASCRIPT</span>
+                    </div>
+                  </div>
             </div>
-          
-      </div>
       
-      <div class="col-md-4">              
-          <img src="assets/skills.jpeg" alt="" class="skills__img">
-      </div>
-       </div>
-       </div>
+            <div class="col-md-4">              
+               <img src="assets/skills.jpeg" alt="" class="skills__img" width="100%">
+            </div>
+    </div>
+  </div>
+</div>
   
        <!--works-->
        <br>
-       <div class="work" id="#work">
+       <div class="work" id="work">
          <div class="title text-center">
-            <h2 class="text-primary">Skills</h2>
+            <h2 class="text-primary">Works</h2>
          </div>
        
          <div class="container-lg">
@@ -161,14 +171,16 @@
          </div>
 
          <!--Contact-->
-         <div class="contact" id="#contact">
+         <div class="container">
+          <div class="row justify-content-center align-items-center">
+         <div class="contact" id="contact">
           <div class="title text-center">
              <h2 class="text-primary">Contact</h2>
           </div>
-          <div class="container center_div">
+          
 
           <form action="/" method="post">
-            <div class="row col-md-6 col-md-offset-3 d-flex justify-content-center">
+            
             <div class="form-group">
               <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="YOUR NAME">
             </div>
@@ -181,10 +193,11 @@
             <div class="form-group ">
               <button class="btn btn-primary">SEND MESSAGE</button>
             </div>
-            </div>
           </form>
         </div>
       </div>
+      </div>
+    </div>
     </main>
       <!--Footer-->
       <footer class="text-center text-white" style="background-color: #45637d;">
@@ -215,4 +228,8 @@
         <!-- Copyright -->
       </footer>
 
-  
+      <script>
+        var scrollspy = new bootstrap.ScrollSpy(document.body,{
+          target: '#navlink'
+        })
+     </script>
